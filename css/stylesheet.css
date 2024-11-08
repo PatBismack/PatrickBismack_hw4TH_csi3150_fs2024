@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.promptBtn{
+    padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 50px;
+  font-size: 32px;
+  font-weight: 500;
+  color: "#FFFFFF";
+  background: "#0000FF";
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+/* Transition for read more button */
+.promptBtn:hover {
+  background: "#0000FF";
+}
